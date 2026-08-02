@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['bin_empty', 'bin_full', 'bulk_waste', 'normal_waste', 'vehicle']
+
+roboflow:
+  workspace: aiorbits
+  project: bulky-waste-2-0-ifbkq
+  version: 26
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aiorbits/bulky-waste-2-0-ifbkq/dataset/26
